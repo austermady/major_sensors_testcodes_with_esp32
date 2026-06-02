@@ -1,4 +1,4 @@
-# 🚀 ESP32 Sensor & Module Test Codes Collection (ARDUINO IDE)
+# 🚀 ESP32 Sensor & Module Test Codes Collection
 
 > A comprehensive collection of ESP32 test codes, hardware examples, troubleshooting guides, and real-world solutions for developers working with sensors, communication modules, storage devices, and embedded systems.
 
