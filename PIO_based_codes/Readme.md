@@ -1,234 +1,68 @@
-# 🚀 ESP32 Sensor & Module Test Codes Collection (PIO VS-CODE)
+# PIO VS-CODE Test Codes Collection
 
-> A comprehensive collection of ESP32 test codes, hardware examples, troubleshooting guides, and real-world solutions for developers working with sensors, communication modules, storage devices, and embedded systems.
+This folder contains Arduino-based test codes for various sensors, modules, and peripherals. The purpose of these examples is to help users quickly verify hardware connections and understand the basic functionality of each component before integrating it into a larger project.
 
----
+## Features
 
-## 📖 About This Repository
+* Simple and easy-to-understand example codes
+* Suitable for beginners and advanced users
+* Tested with Arduino-compatible boards
+* Useful for hardware validation and troubleshooting
+* Well-organized code structure for quick testing
 
-This repository was created to help developers, students, hobbyists, and engineers quickly test and integrate hardware with ESP32 without spending hours debugging wiring issues, library conflicts, communication errors, or undocumented hardware behavior.
+## Contents
 
-Many examples found online are incomplete or outdated. The goal of this repository is to provide working, tested, and easy-to-understand examples that can be used as a starting point for real projects.
+Each subfolder contains:
 
-Whether you are building an IoT device, automation system, security project, weather station, GPS tracker, data logger, or industrial solution, this repository aims to save development time.
+* Arduino sketch (`.ino`) file
+* Required library information (if applicable)
+* Basic wiring details
+* Example output and usage instructions
 
----
+## Supported Components
 
-## ✨ What You'll Find Here
+Examples may include:
 
-### 📡 Communication Modules
-
-* GSM / GPRS Modules
-* LTE Modules
-* A7672S Series
-* SIM800 Series
-* SIM7600 Series
-* GPS Modules
-* LoRa Modules
-* Bluetooth Modules
-* Wi-Fi Examples
-
-### 💾 Storage Devices
-
-* Micro SD Card
-* SD_MMC
-* SPI Flash
-* File Handling Examples
-* Data Logging
-
-### 🌡️ Sensors
-
-* Temperature Sensors
-* Humidity Sensors
+* Temperature & Humidity Sensors
 * Pressure Sensors
-* Light Sensors
 * Gas Sensors
-* Motion Sensors
 * Distance Sensors
-* Environmental Sensors
-* Lightning Sensors
-* Current Sensors
-* Voltage Sensors
-
-### 📺 Displays
-
-* OLED Displays
-* LCD Displays
-* TFT Displays
-* Touch Displays
-
-### ⚙️ Interfaces
-
-* UART
-* SPI
-* I2C
-* PWM
-* ADC
-* Interrupts
-* DMA
-
-### 🔌 Other Hardware
-
-* Relay Modules
+* Light Sensors
+* Motion Sensors
+* GPS Modules
+* GSM/GPRS Modules
 * RTC Modules
+* SD Card Modules
 * RFID Readers
-* Keypads
+* OLED/LCD Displays
+* Relays
 * Motor Drivers
-* Encoders
-* Power Monitoring Circuits
+* I2C/SPI/UART Devices
+* And many more
 
----
+## Getting Started
 
-## 🛠 Repository Goals
+1. Open the desired test code in Arduino IDE.
+2. Install any required libraries.
+3. Connect the hardware according to the wiring instructions.
+4. Select the correct board and COM port.
+5. Upload the sketch.
+6. Open Serial Monitor (if required) to view results.
 
-✅ Working test codes
+## Purpose
 
-✅ Clean and understandable examples
+These test codes are intended for:
 
-✅ Beginner-friendly implementations
+* Learning and experimentation
+* Hardware verification
+* Troubleshooting sensor connections
+* Quick prototyping
+* Reference implementations for future projects
 
-✅ Hardware troubleshooting references
+## Contributing
 
-✅ Real-world integration examples
+Contributions are welcome. Feel free to add new sensor/module test codes, improve existing examples, or report issues.
 
-✅ ESP32 focused development
+## License
 
-✅ Solutions to common hardware issues
-
----
-
-## 📂 Repository Structure
-
-```text
-major_sensors_testcodes_with_esp32/
-│
-├── Arduino Based/
-│   ├── DHT22/
-│   ├── BMP280/
-│   ├── A7672S/
-│   ├── SD_Card/
-│   ├── Displays//
-│   └── ...
-│
-├── PIO Based/
-│   ├── DHT22/
-│   ├── BMP280/
-│   ├── A7672S/
-│   ├── SD_Card/
-│   ├── Displays//
-│   └── ...
-
-```
-
-Each folder contains:
-
-* Source Code
-* Wiring Information
-* Required Libraries
-* Test Instructions
-* Troubleshooting Notes
-
----
-
-## 🎯 Why This Repository?
-
-If you've ever experienced:
-
-* ESP32 not detecting a sensor
-* I2C devices not showing up
-* SPI devices failing randomly
-* SD card initialization errors
-* GSM modules not responding
-* GPS modules not getting a fix
-* Power supply related issues
-* UART communication failures
-* Library conflicts
-
-then this repository is for you.
-
-Most examples are built from actual development and debugging experience rather than copied directly from datasheets.
-
----
-
-## 📚 Designed For
-
-* Students
-* Makers
-* Hobbyists
-* Embedded Engineers
-* IoT Developers
-* Product Developers
-* Electronics Enthusiasts
-
----
-
-## 🔍 Before Opening an Issue
-
-Please check:
-
-* Wiring connections
-* Power supply requirements
-* Board selection
-* COM port selection
-* Required libraries
-* ESP32 core version
-
-Many common issues are already addressed in the example folders.
-
----
-
-## 🤝 Need Help?
-
-If you're facing issues while interfacing a sensor, module, display, GSM device, SD card, GPS module, or any other hardware with ESP32:
-
-### Feel free to ask!
-
-Open an Issue with:
-
-* Hardware name
-* ESP32 board used
-* Wiring details
-* Error logs
-* Photos (if applicable)
-
-I will try to help and provide a solution whenever possible.
-
----
-
-## 🌟 Contributing
-
-Contributions are welcome.
-
-You can contribute by:
-
-* Adding new test codes
-* Improving documentation
-* Fixing bugs
-* Adding troubleshooting tips
-* Sharing hardware compatibility information
-
----
-
-## ⭐ Support the Project
-
-If this repository helped you save time or solve a problem:
-
-⭐ Star the repository
-
-🍴 Fork it
-
-📢 Share it with other developers
-
-Your support helps improve and expand the collection.
-
----
-
-## 📜 License
-
-This repository is provided for educational and development purposes.
-
-Feel free to use, modify, and build upon the examples in your personal or commercial projects.
-
----
-
-### Happy Building with ESP32! 🚀
+This repository is provided for educational and development purposes. Use the code freely in your personal and commercial projects.
